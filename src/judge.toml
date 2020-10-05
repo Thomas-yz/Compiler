@@ -5,5 +5,5 @@ image = { source = "dockerfile", path = ".", tag = "my-pascal-lexer" }
 # 假如你用的是 Java
 run = [
   # 运行程序
-  "java Test hello.txt",
+  "java src/Test hello.txt",
 ]
