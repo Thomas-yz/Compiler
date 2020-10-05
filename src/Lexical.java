@@ -34,7 +34,7 @@ public class Lexical {
 					i++;
 				}
 				signal = new StringBuffer("Int(");
-				signal.append(temp);
+				signal.append(Integer.parseInt(temp.toString()));
 				signal.append(")");
 			}
 			else if(buf[i]==':') {
